@@ -12,7 +12,7 @@ const UserSidebar: React.FC<UserSidebarProps> = ({ isOpen, onClose }) => {
     lastName: 'Kumar',
     email: 'rahul.kumar@email.com',
     phone: '+91 9876543210',
-    address: 'Shastri Nagar, Ranchi, Jharkhand',
+    address: 'Ashok Nagar, Ranchi, Jharkhand',
     pincode: '834001'
   });
 
