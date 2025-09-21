@@ -111,18 +111,36 @@ export const priorityAreas: PriorityArea[] = [
 
 export const mockIssues: Issue[] = [
   {
+    id: '3',
+    title: '834001WS8901',
+    description: 'Entire Shastri Nagar colony has been without water supply for 4 days. Residents are facing severe hardship, especially elderly and children. Water tankers are urgently needed.',
+    category: 'water',
+    status: 'resolved',
+    priority: 'critical',
+    location: 'Shastri Nagar, Ranchi, Jharkhand',
+    coordinates: { lat: 23.3441, lng: 85.3096 },
+    image: 'https://images.pexels.com/photos/2339722/pexels-photo-2339722.jpeg?auto=compress&cs=tinysrgb&w=800',
+    reportCount: 34,
+    upvotes: 89,
+    reportedAt: new Date(Date.now() - 24 * 60 * 60 * 1000), // 1 day ago
+    reportedBy: 'Amit Kumar Jha',
+    estimatedResolutionTime: 'Resolved',
+    assignedDepartment: 'Water Supply Department',
+    lastUpdated: new Date('2024-01-16T16:30:00')
+  },
+  {
     id: '1',
     title: '822001GW7234',
-    description: 'Large accumulation of garbage has been blocking the main entrance to Kadma Market for over a week. The smell is unbearable and attracting stray animals. Local vendors are losing business due to this issue.',
+    description: 'Large accumulation of garbage has been blocking the main entrance to Community Park of Ashok Nagar for over a week. The smell is unbearable and attracting stray animals. Local vendors are losing business due to this issue.',
     category: 'garbage',
     status: 'reported',
     priority: 'high',
-    location: 'Kadma Market, Jamshedpur, Jharkhand',
-    coordinates: { lat: 22.8046, lng: 86.2029 },
-    image: 'https://images.pexels.com/photos/15199839/pexels-photo-15199839.jpeg?auto=compress&cs=tinysrgb&w=800',
+    location: 'Ashok Nagar, Ranchi, Jharkhand',
+    coordinates: { lat: 23.3441, lng: 85.3096 },
+    image: '/7B.webp',
     reportCount: 23,
     upvotes: 45,
-    reportedAt: new Date('2024-01-15T10:30:00'),
+    reportedAt: new Date(Date.now() - 60 * 1000), // 1 minute ago
     reportedBy: 'Rahul Kumar Singh',
     estimatedResolutionTime: '2-3 days',
     assignedDepartment: 'Municipal Corporation',
@@ -145,24 +163,6 @@ export const mockIssues: Issue[] = [
     estimatedResolutionTime: '5-7 days',
     assignedDepartment: 'Public Works Department',
     lastUpdated: new Date('2024-01-16T09:15:00')
-  },
-  {
-    id: '3',
-    title: '834001WS8901',
-    description: 'Entire Shastri Nagar colony has been without water supply for 4 days. Residents are facing severe hardship, especially elderly and children. Water tankers are urgently needed.',
-    category: 'water',
-    status: 'resolved',
-    priority: 'critical',
-    location: 'Shastri Nagar, Ranchi, Jharkhand',
-    coordinates: { lat: 23.3441, lng: 85.3096 },
-    image: 'https://images.pexels.com/photos/2339722/pexels-photo-2339722.jpeg?auto=compress&cs=tinysrgb&w=800',
-    reportCount: 34,
-    upvotes: 89,
-    reportedAt: new Date('2024-01-12T09:15:00'),
-    reportedBy: 'Amit Kumar Jha',
-    estimatedResolutionTime: 'Resolved',
-    assignedDepartment: 'Water Supply Department',
-    lastUpdated: new Date('2024-01-16T16:30:00')
   },
   {
     id: '4',
