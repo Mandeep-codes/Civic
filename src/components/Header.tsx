@@ -16,7 +16,6 @@ const Header: React.FC<HeaderProps> = ({ notificationCount, onMenuClick }) => {
         >
           <Menu size={24} />
         </button>
-        <h1 className="text-2xl font-bold text-blue-600">Nivaro</h1>
         <h1 className="text-2xl font-bold text-blue-600">Nivaro Citizen</h1>
       </div>
       
